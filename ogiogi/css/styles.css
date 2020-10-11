@@ -1,0 +1,312 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+body
+{
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  padding-top: 34px;
+}
+.logo
+{
+  padding-top: 22.5px;
+  display: block;
+}
+.nav-link
+{
+  color: #5d5f65;
+  font-size: 16px;
+  padding: 0.5rem 0.8rem;
+}
+.centered
+{
+  width: 100%;
+  height: 615px;
+  display: flex;
+  align-items: center;
+}
+#title
+{
+  color: #141720;
+  font-weight: bold;
+  font-size: 44px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 17px;
+}
+#subtitle
+{
+  font-size: 25px;
+  line-height: 2.4;
+}
+.about-us
+{
+  background: #141720;
+  height: 700px;
+  color: #fff;
+  position: relative;
+}
+.image-about-us
+{
+  max-width: 50%;
+  width: 720px;
+  height: 700px;
+  background: url(../images/imagen-about-us.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  zoom: 1;
+}
+.about-us-title
+{
+  padding-top: 145px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28;
+}
+.about-us-text
+{
+  padding-top: 54px;
+  line-height: 26px;
+  text-align: left;
+}
+.timeline-section
+{
+  height: 600px;
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.vl
+{
+  border-left: 4px solid #d4d4d4;
+  height: 490px;
+  position: absolute;
+  left:0;
+  margin-left: 356.5px;
+  top: 0;
+}
+.circle
+{
+  content: '';
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 350px;
+  background-color: white;
+  border: 4px solid #d4d4d4;
+  border-radius: 50%;
+  z-index: 1;
+}
+.circle#y2003{border: 4px solid #C71222;}
+#y2003
+{
+  top: 152px;
+  position: absolute;
+}
+#y2006
+{
+  top:232px;
+  position: absolute;
+}
+#y2010
+{
+  top: 333px;
+  position: absolute;
+}
+#y2016
+{
+  top: 493px;
+  position: absolute;
+}
+.y2003
+{
+  font-family: Montserrat;
+  font-size: 16;
+  font-weight: bold;
+  line-height: 26px;
+  color: #C71222;
+  top: -1px;
+  padding-left: 90px;
+}
+.y2006
+{
+  font-family: Montserrat;
+  font-size: 16;
+  font-weight: bold;
+  line-height: 26px;
+  color: #D4D4D4;
+  top: -1px;
+  padding-left: 90px;
+}
+.y2010
+{
+  font-family: Montserrat;
+  font-size: 16;
+  font-weight: bold;
+  line-height: 26px;
+  color: #D4D4D4;
+  top: -1px;
+  padding-left: 90px;
+}
+.y2016
+{
+  font-family: Montserrat;
+  font-size: 16;
+  font-weight: bold;
+  line-height: 26px;
+  color: #D4D4D4;
+  top: -1px;
+  padding-left: 90px;
+}
+.timeline-title
+{
+  top: 142px;
+  font-family: Montserrat;
+  font-size: 16;
+  line-height: 26px;
+  color: #2B2B2B;
+}
+.timeline-text
+{
+  top: 222px;
+  line-height: 26px;
+  text-align: left;
+  color: #5D5F65;
+}
+.date
+{
+  font-family: Montserrat;
+  font-size: 16;
+  font-weight: bold;
+  left: 195px;
+}
+.our-services-section
+{
+  background: #EFEFEF;
+}
+.tall
+{
+  margin-top: -580px;
+}
+.picture
+{
+  margin-bottom: 21px;
+}
+.services-title
+{
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  color: #141720;
+}
+.services-text
+{
+  padding-top: 15px;
+  line-height: 26px;
+  letter-spacing: 0px;
+  color: #5D5F65;
+}
+.our-services-title
+{
+  margin-top: 142px;
+  margin-bottom: 81px;
+}
+.services-top-row
+{
+  padding-bottom: 70px;
+}
+.services-bottom-row
+{
+  padding-bottom: 140px;
+}
+.hiring-section
+{
+ background-color: #141720;
+ color: white;
+ height: 700px;
+}
+.imagen-hiring
+{
+  max-width: 50%;
+  width: 720px;
+  height: 700px;
+  background: url(../images/imagen-hiring.jpg);
+  background-size: cover;
+  position: absolute;
+}
+.hiring-title
+{
+  padding-top: 143px;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 1px;
+}
+.hiring-text
+{
+  margin-top: 30px;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+}
+.contact-us-section
+{
+  height: 700px;
+  background-color: #141720;
+  color: #FFFFFF;
+
+}
+.imagen-contact-us
+{
+  max-width: 50%;
+  width: 720px;
+  height: 700px;
+  background: url(../images/imagen-contact-us.jpg);
+  background-size: cover;
+  position: absolute;
+  right: 0; 
+}
+button
+{
+margin-left: 281px;
+height: 50px;
+width: 170px;
+left: 0px;
+top: 0px;
+border-radius: 100px;
+background: #C71222;
+color: white;
+}
+.contact-us-title
+{
+  margin-top: 143.5px;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 1px;
+}
+.contact-us-fields
+{
+  line-height: 26px;
+  letter-spacing: 0.5px;
+}
+
+.cu-field
+{
+  margin-top: 38px;
+  margin-bottom: -10px;
+}
+.first-field
+{
+  margin-top: 30px;
+}
